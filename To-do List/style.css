@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FCFFE7;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+
+
+.navbar h1 {
+   font-size: 47px;
+   text-align: center;
+}
+
+.user_inp {
+    width: 500px;
+    text-align: center;
+}
+
+.user_inp input {
+    width: 85% ;
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    background-color: #FFFFFF;
+    color: black;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+.user_inp input:hover {
+    box-shadow: 0 0 5px #92B4EC;
+    cursor: pointer;
+    background-color: #FAD4D4;
+    color: black;
+   
+}
+
+.user_inp button {
+    width: fit-content;
+    height: 51px;
+    outline: none;
+    padding: 15px;
+    border: 1px solid #646FD4;
+    background-color: #14C38E;
+    font-weight: bolder;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.user_inp button:hover {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.items-list {
+    width: 500px;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 90%;
+    border-radius: 6px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    color: #363062;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 20px #112B3C;
+    border: 1px solid lightgray;
+}
+
+.item i {
+    cursor:  pointer;
+    margin: 0 5px;
+}
