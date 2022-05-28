@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background: linear-gradient(to right, #646FD4,#EB5353);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    width: 80px;
+    height: 68px;
+    border: 2px solid #E9D5DA;
+    background-color: #827397;
+    color: #EEEEEE;
+    border-radius: 20%;
+    margin: 3px;
+    padding: 22px;
+    font-size: 20px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-weight: bolder;
+    box-shadow: 2px 2px #E8F9FD;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: grab;
+}
+
+.cal {
+    border: 3px solid #363062;
+    border-radius: 30px;
+    background-color: #363062;
+    padding: 30px;
+    display: inline-block;
+    margin: 70px;
+    box-shadow: 7px 10px #947EC3;
+    /* box-shadow: 43px 17px rgba(153,153,153,1); */
+}
+
+
+.container {
+    text-align: center;
+    
+}
+
+input {
+    font-size: 30px;
+    width: 310px;
+    height: 40px;
+    padding: 5px;
+    border: 3px solid #EEEEEE;
+    border-radius: 13px;
+    margin: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px #827397;
+    background-color: #F7E9D7;
+    box-shadow: inset -5px -0em 2px #8b8484,
+                inset 8px 8px 19px rgb(37, 36, 36);
+}
+
+table {
+    margin: auto;
+}
+
+#ac {
+    background-color: #F55353;
+}
+
+#c {
+    background-color: #F1D00A;
+}
+
+#eq {
+    background-color: #4E944F;
+    position: absolute;
+    top: 512px;
+    left: 50%;
+    width: 170px;
+    border-radius: 20px;
+}
+
+#ac:hover,#c:hover,#eq:hover{
+    background-color: transparent;
+}
